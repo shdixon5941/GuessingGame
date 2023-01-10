@@ -27,7 +27,8 @@ def main():
         LIMIT = int(input("Enter the limit: "))
         play_game(LIMIT)
         again = input("Would you like to play again? (y/n): ")
-        print("Bye!")
+        print()
+    print("Bye!")
 
 # if started as main module, call the main function
 if __name__ == "__main__":
